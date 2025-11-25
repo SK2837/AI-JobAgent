@@ -1,0 +1,24 @@
+# Tasks
+
+- [ ] Project Initialization
+    - [ ] Create project structure
+    - [ ] Set up virtual environment and dependencies (FastAPI, LangChain, SQLAlchemy/Alembic, psycopg2-binary)
+    - [ ] Configure environment variables (.env)
+- [ ] Database Setup
+    - [ ] Design database schema (Jobs, Resumes, Applications, Users)
+    - [ ] Setup PostgreSQL connection
+    - [ ] Initialize database migrations (Alembic)
+- [ ] Backend Core (FastAPI)
+    - [ ] Setup FastAPI app entry point
+    - [ ] Implement basic health check
+- [ ] Scraper Module
+    - [ ] Design scraper interface
+    - [ ] Implement job source scrapers
+- [ ] Resume Customization Agent (LangChain)
+    - [ ] Setup LLM client (Tool Calling)
+    - [ ] Implement resume parsing/loading
+    - [ ] Implement resume modification logic based on job description
+- [ ] Application Submission Agent
+    - [ ] Implement submission logic
+- [ ] Integration & Verification
+    - [ ] End-to-end flow test
